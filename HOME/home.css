@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;  
     margin: 0;
+    font-family: sans-serif;
  }
  body{
      background-color: #F6CDCD;
@@ -13,24 +14,59 @@
      font-weight: 500;
      font-size: 20px;
  } 
- .div1{
+ .header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     background-color: #F790CC;
-    height: 100px;
+    height: 150px;
  }
  .navs{
     display: flex;
     align-items: center;
-    padding: 12px;
-    gap: 20px;
+    padding: 42px;
+    gap: 40px;
+ }
+ .navs a{
+   font-weight: 700;
  }
  .logo{
-    padding: 12px;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
+   
  }
  img{
-    height: 90%;
+   margin-top: 30px;
+   margin-right: 70px;
+    height: 60%;
+ }
+ section{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+ .first{
+   /* margin-right: 45px; */
+   margin-top: 50px;
+ }
+ .first h3, p{
+   padding: 20px;
+   font-size: 20px;
+ }
+
+ .btn{
+   padding: 20px;
+   margin-top: 30px;
+   font-size: 18px;
+ }
+ .btn button{
+   padding: 10px;
+   border: none;
+   color: white;
+   font-weight: 500;
+   font-size: 18px;
+   background: linear-gradient(#ed97c9, #f0b7ce);
+ }
+ .icons{
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+   margin-top: 80px;
  }
