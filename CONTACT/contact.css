@@ -30,12 +30,6 @@ a{
   font-weight: 700;
 }
 
-img{
-  margin-top: 30px;
-  margin-right: 70px;
-   height: 60%;
-}
-
 .talk{
    display: flex;
    flex-direction: column;
@@ -43,30 +37,35 @@ img{
    margin-bottom: 40px;
  }
  .let{
-   color: #F6CDCD;
    font-size: 28px;
-   margin-left: 8px;
+   margin-right: 18px;
    margin-bottom: 30px;
  }
  .contact{
    color: #F6CDCD;
    font-size: 28px;
  }
- .images{
-   margin-top: 30px;
- }
+ /* .images{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+ } */
+ 
 .image{
-   margin-left: 8px;
    width: 20px;
    height: 20px;
+}
+.Follow{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
 }
 .container {
    display: flex;
    justify-content: space-evenly;
    align-items: center;
    max-width: 800px;
-   height: 70vh;
-   margin: 50px auto;
+   margin: 80px auto;
    padding: 20px;
    border-radius: 5px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -84,13 +83,16 @@ label {
 input, textarea
 {
    width: 100%;
-   padding: 10px 20px;
+   height: 30px;
+   padding: 0 10px;
    background-color: #F6CDCD;
    box-sizing: border-box;
    border: none;
    border-bottom: 2px solid rgb(5, 5, 5);
  }
-
+textarea{
+   height: 60px;
+}
 .button {
    background: linear-gradient(#ed97c9, #f0b7ce);
    color: #fff;
